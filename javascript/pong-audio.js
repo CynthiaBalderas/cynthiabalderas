@@ -44,9 +44,8 @@ export var soundArray = []; //list of sounds loaded
 //Here is where all the Sound File Players Start
 
 export var wallSound = new soundFile("soft transition.mp3"); // load sound
-wallSound.setVolume(0.2); // set volume to 20%
+wallSound.setVolume(0.1); // set volume to 10%
 soundArray.push(wallSound); // add sound to list of sounds
-
 
 export var paddleSound = new soundFile("birds chirping.mp3");
 soundArray.push(paddleSound);
